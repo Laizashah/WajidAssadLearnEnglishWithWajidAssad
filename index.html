@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Learn English with Wajid Assad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        @media (min-width: 768px) {
+            #menu-toggle {
+                display: none;
+            }
+            #nav-links {
+                display: flex !important;
+                position: static;
+                background: none;
+                box-shadow: none;
+                padding: 0;
+            }
+            #nav-links ul {
+                flex-direction: row;
+            }
+        }
+        .hidden-links {
+            display: none;
+        }
+        .hidden {
+            display: none;
+        }
+        /* Zoom out effect on hover */
+        .zoom-out-btn {
+            transition: transform 0.1s ease-out;
+        }
+
+        .zoom-out-btn:hover {
+            transform: scale(0.95s);
+        }
+
+        
+/* Add the keyframes for the scrolling text animation */
+@keyframes scroll-up {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+/* Style for the scrolling text container */
+.scrolling-text-container {
+    height: 50px; /* Adjust height as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Style for the text content to make it scroll */
+.scrolling-text {
+    position: absolute;
+    width: 100%;
+    animation: scroll-up 7s linear infinite; /* Adjust duration as needed */
+}
+
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 66.6667%;
+        padding-bottom: 0;
+        box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+        margin-top: 1.6em;
+        margin-bottom: 0.9em;
+        overflow: hidden;
+        border-radius: 8px;
+        will-change: transform;
+        display: none; /* Hidden by default */
+    }
+
+    .video-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Media query to show the video only on small screens */
+    @media (max-width: 768px) {
+        .video-container {
+            display: block; /* Show on small screens */
+        }
+    }
+
+  </style>
+
+</head>
+<body class="font-roboto bg-gradient-to-b from-[#FFFAF0] to-[#E0FFFF] text-black">
+<!-- Header Section -->
+<header class="p-4 bg-gradient-to-r from-[#FFDEE9] to-[#B5FFFC]">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Learn English with Wajid Assad</h1>
+        <div class="relative">
+            <button id="menu-toggle" class="text-2xl focus:outline-none">
+                <i id="menu-icon" class="fas fa-bars"></i>
+            </button>
+            <nav id="nav-links" class="hidden absolute right-0 mt-2 bg-white shadow-lg rounded-lg p-4 space-y-2 md:space-y-0 md:space-x-4">
+                <ul class="flex flex-col md:flex-row md:space-x-6">
+                    <li><a class="hover:underline" href="#ceo">CEO</a></li>
+                    <li><a class="hover:underline" href="#targeted-audience">Targeted Audience</a></li>
+                    <li><a class="hover:underline" href="#courses">Our Courses</a></li>
+                    <li><a class="hover:underline" href="#tutors">Meet Our Tutors</a></li>
+                    <li><a class="hover:underline" href="#student-say">What Students Say</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- CEO Section -->
+<section class="py-12" id="ceo">
+    <div class="container mx-auto text-center px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-4">Meet Our CEO</h2>
+        <img alt="Portrait of Wajid Assad, CEO of Learn English with Wajid Assad, in a professional setting" class="mx-auto rounded-full mb-4" height="200" src="https://i.imgur.com/8SUm4N9.jpeg" width="200"/>
+        <p id="ceo-text" style="text-align:start;" class="text-lg">
+            <b>Wajid Assad </b>is the visionary CEO of the website <i>Learn English with Wajid Assad</i>. Armed with an impressive academic portfolio that includes a Master’s degree in English, a Bachelor’s degree in English Literature, and a Diploma in Applied Linguistics, he has devoted over seven years to empowering students with transformative language skills. His expertise lies in accent refinement, grammar mastery, vocabulary enhancement, public speaking, and developing overall English fluency. Wajid's passion for language education is evident in his commitment to delivering practical, results-driven learning experiences.  
+
+            Wajid is joined by his brother, <b>Sajid Assad</b>, who brings equally commendable qualifications and experience to the team. Sajid holds a Postgraduate degree in English and collaborates with Wajid to provide a holistic approach to language training. Together, they create a dynamic learning environment that fosters confidence, effective communication, and measurable progress. Their combined dedication, extensive experience, and academic excellence have made them a trusted name in language education, helping countless students achieve their linguistic and professional aspirations..
+        </p>
+    </div>
+</section>
+
+<!-- Video Section -->
+<div class="video-container">
+    <iframe loading="lazy" src="https://www.canva.com/design/DAGa4ipWt_I/uolvBizeXtwsahAsr2p4Og/watch?embed" 
+        allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGa4ipWt_I&#x2F;uolvBizeXtwsahAsr2p4Og&#x2F;watch?utm_content=DAGa4ipWt_I&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+
+<!-- Targeted Audience Section -->
+<section class="py-12" id="targeted-audience">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Targeted Audience</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF] glow-pulse">
+                <i class="fas fa-briefcase text-4xl mb-2"></i>
+                <h3 class="text-xl font-bold mb-2">Young Professionals</h3>
+                <p style="text-align: start;">Significantly enhance your career opportunities by achieving a high level of proficiency in Business English, enabling you to navigate complex professional environments with confidence, communicate effectively in diverse business settings, and position yourself as a valuable asset in the global marketplace.</p>
+            </div>
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF] glow-pulse">
+                <i class="fas fa-graduation-cap text-4xl mb-2"></i>
+                <h3 class="text-xl font-bold mb-2">Students</h3>
+                <p style="text-align:start;">Enhance your academic performance and excel in your exams through our meticulously crafted, tailored courses that are designed to address your specific learning requirements, providing in-depth knowledge, targeted strategies, and personalized support to ensure your success in every assessment.</p>
+            </div>
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF] glow-pulse">
+                <i class="fas fa-plane text-4xl mb-2"></i>
+                <h3 class="text-xl font-bold mb-2">Travel Enthusiasts</h3>
+                <p style="text-align:start;">Achieve fluency in English to elevate your travel experiences, allowing you to communicate effortlessly across borders, connect with people from various cultures, and navigate unfamiliar places with ease. This mastery will not only enhance your ability to enjoy every aspect of your travels but also open doors to deeper cultural insights.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Our Courses Section -->
+    <section class="py-12" id="courses">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Courses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                    <img alt="Students in a classroom setting for Beginner English course" class="mx-auto mb-4 rounded-lg shadow-lg" height="200" src="https://storage.googleapis.com/a1aa/image/egORC9q4JfjQ5EG0PlWJQtUl3c8yCQUxMwFOMvL92Sr0MGAUA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold mb-2">Beginner English</h3>
+                    <p style="text-align: start;">Embark on your English learning journey with our comprehensive beginner course, designed to provide you with a solid foundation in the language. This course will guide you through essential vocabulary, grammar, and basic communication skills, ensuring you develop the confidence and competence needed to progress smoothly in your language learning path.This Course serves as a gateway to mastering English.
+                   .</p>
+                    <button class="mt-4 bg-[#1B263B] py-2 px-4 rounded text-white zoom-out-btn enroll-btn">Enroll Now</button>
+                </div>
+                <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                    <img alt="Students in a study group for Intermediate English course" class="mx-auto mb-4 rounded-lg shadow-lg" height="200" src="https://storage.googleapis.com/a1aa/image/enfcpSw2zOjFfIKThsOnTAGjW3aJNxD5m7O1QzOJHwcfzYAQB.jpg" width="300"/>
+                    <h3 class="text-xl font-bold mb-2">Intermediate English</h3>
+                    <p style="text-align:start;">Take your language proficiency to the next level with our intermediate course, designed to refine your skills and deepen your understanding of English.Through advanced grammar,vocabulary expansion,and practical communication exercises, this course will help you build greater fluency, enhance your confidence, and equip you with the tools needed to navigate more complex conversations and situations with ease..</p>
+                    <button class="mt-4 bg-[#1B263B] py-2 px-4 rounded text-white zoom-out-btn enroll-btn">Enroll Now</button>
+                </div>
+                <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                    <img alt="Students in a professional setting for Advanced English course" class="mx-auto mb-4 rounded-lg shadow-lg" height="200" src="https://storage.googleapis.com/a1aa/image/VModeYrG2IxJaSIn0u0aLHza7qfjJhN3AQGNudd2ikBBNGAUA.jpg" width="300"/>
+                    <h3 class="text-xl font-bold mb-2">Advanced English</h3>
+                    <p style="text-align: start;">Achieve mastery in English with our advanced course, meticulously designed to elevate your language skills to an expert level. Through in-depth lessons on complex grammar, sophisticated vocabulary, and nuanced communication techniques, this course will empower you to express yourself with precision and confidence, enabling you to excel in professional, academic, and social contexts with ease..</p>
+                    <button class="mt-4 bg-[#1B263B] py-2 px-4 rounded text-white zoom-out-btn enroll-btn">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+   
+
+<!-- Meet Our Tutors Section -->
+<section class="py-12" id="tutors">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Meet Our Tutors</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                <img alt="Portrait of Tutor 1 in a classroom setting" class="mx-auto rounded-full mb-4" height="150" src="https://i.imgur.com/8SUm4N9.jpeg" width="150"/>
+                <h3 class="text-xl font-bold mb-2">WAJID ASSAD</h3>
+                <p style="text-align: start;"> <b>Accent & Communication Specialist.</b>Wajid focuses on:
+
+Accent Training: Helping individuals reduce strong regional accents or develop a more neutral or desired accent, particularly focusing on American English pronunciation.
+Clear Communication: Improving how people articulate and express themselves, ensuring they are easily understood in various settings, such as public speaking, professional communication, or casual conversations.
+</p>
+                <div class="flex justify-center items-center mt-2">
+                    <i class="fas fa-stamp text-yellow-500 mr-2"></i>
+                    <span class="text-sm font-semibold">Senior Expert</span>
+                </div>
+                <button class="mt-4 bg-[#1B263B] py-2 px-4 rounded text-white zoom-out-btn book-tutor-btn" data-tutor="WAJID ASSAD">Book Tutor</button>
+            </div>
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                <img alt="Portrait of Tutor 2 in a professional setting" class="mx-auto rounded-full mb-4" height="150" src="https://i.imgur.com/qHjswQV_d.jpeg?maxwidth=520&shape=thumb&fidelity=high" width="150"/>
+                <h3 class="text-xl font-bold mb-2">JENNY</h3>
+                <p style="text-align: start"> <b>Spoken English Assistant.</b>Jenny's role includes:
+
+Assisting in Accent Improvement: Helping students refine their pronunciation and reduce strong accents to enhance clarity.
+Facilitating Fluency Development: Supporting learners in speaking more naturally, confidently, and without hesitation.
+Engaging in Conversation Practice: Offering opportunities for students to practice speaking in a relaxed, non-judgmental environment.
+</p>
+                <div class="flex justify-center items-center mt-2">
+                    <i class="fas fa-stamp text-green-500 mr-2"></i>
+                    <span class="text-sm font-semibold">Experienced Tutor</span>
+                </div>
+                <button class="mt-4 bg-[#1B263B] py-2 px-4 rounded text-white zoom-out-btn book-tutor-btn" data-tutor="JENNY">Book Tutor</button>
+            </div>
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                <img alt="Portrait of Tutor 3 in a study group setting" class="mx-auto rounded-full mb-4" height="150" src="https://i.imgur.com/sIAszjB_d.jpeg?maxwidth=520&shape=thumb&fidelity=high" width="150"/>
+                <h3 class="text-xl font-bold mb-2">SAJID ASSAD</h3>
+                <p style="text-align: start"><b>Specialist in Grammar & Spoken English.</b>Sajid focuses on:
+
+Grammar Mastery: Sajid helps students understand and apply English grammar rules, from basic sentence structure to complex tenses and word usage, ensuring they communicate with precision and correctness.
+Pronunciation & Clarity: He works with learners to perfect their pronunciation, helping them speak clearly and be easily understood in any context.
+.</p>
+                <div class="flex justify-center items-center mt-2">
+                    <i class="fas fa-stamp text-blue-500 mr-2"></i>
+                    <span class="text-sm font-semibold">Certified Tutor</span>
+                </div>
+                <button class="mt-4 bg-[#1B263B] py-2 px-4 rounded text-white zoom-out-btn book-tutor-btn" data-tutor="SAJID ASSAD">Book Tutor</button>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- What Students Say Section -->
+      
+<section class="py-12" id="student-say">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">What Students Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                <img alt="Portrait of Student D in a classroom setting" class="mx-auto rounded-full mb-4" height="150" src="https://i.imgur.com/tioCg94.jpeg" width="150"/>
+                <div class="scrolling-text-container">
+                    <div class="scrolling-text">
+                        <p class="italic">"As a student, I find the courses to be well-structured and easy to follow. The content is organized in a way that allows me to understand each concept before moving on to the next, making the learning process smooth and manageable. The lessons are clear and concise, and they explain even the more challenging topics in simple terms, which makes them much easier to grasp.
+
+                            What stands out to me is the balance between theory and practical application. The examples are relevant, and I can see how to apply what I've learned in real-world situations. The pace of the course is just right—neither too fast nor too slow—so I can keep up without feeling overwhelmed.
+                            
+                            Overall, I’ve gained a lot of confidence in my understanding and skills, and I would definitely recommend these courses to anyone looking for a structured and easy-to-follow learning experience."</p>
+                    </div>
+                </div>
+                <p class="mt-2 font-bold"><b>AQIB NAZIR</b></p>
+            </div>
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                <img alt="Portrait of Student E in a study group" class="mx-auto rounded-full mb-4" height="150" src="https://i.imgur.com/oIV74uw.jpeg" width="150"/>
+                <div class="scrolling-text-container">
+                    <div class="scrolling-text">
+                        <p class="italic">
+                            The tutors are incredibly supportive and knowledgeable. Whenever I had questions or needed clarification, they were always available to provide detailed explanations and guidance. Their expertise in the subject matter is evident, and they make even the most complex topics easy to understand.
+                            
+                            What I truly appreciate is their patience and willingness to help me succeed. They go above and beyond to ensure that I fully grasp the material, offering additional resources and tips to improve my learning experience. The tutors create a comfortable environment where I feel encouraged to ask questions and explore the topics further.
+                            
+                            Overall, their support has been invaluable in my learning journey, and I feel confident that I am receiving the best possible guidance. I am grateful for their dedication and would highly recommend them to anyone looking for expert support in their studies."</p>
+                    </div>
+                </div>
+                <p class="mt-2 font-bold"><b>WAHID AHMAD</b></p>
+            </div>
+            <div class="p-4 rounded shadow bg-gradient-to-r from-[#FFFAF0] to-[#E0FFFF]">
+                <img alt="Portrait of Student F in a professional setting" class="mx-auto rounded-full mb-4" height="150" src="https://i.imgur.com/IbmSDYc.jpeg" width="150"/>
+                <div class="scrolling-text-container">
+                    <div class="scrolling-text">
+                        <p class="italic">"I feel much more confident speaking English now. The lessons and practice sessions have helped me overcome my hesitation and speak with greater fluency. I’ve noticed a significant improvement in my ability to express myself clearly, whether in casual conversations or more formal settings.
+
+                            The consistent practice and the feedback from the tutors have been key in building my confidence. They’ve helped me refine my pronunciation and correct any mistakes, which has made me more self-assured when speaking. I no longer feel anxious about making errors, as I now view them as part of the learning process.
+                            
+                            Overall, I’m more comfortable speaking English in various situations, and I’m excited to continue improving. I truly believe that the skills I’ve gained have made a huge difference in my confidence and ability to communicate effectively."</p>
+                    </div>
+                </div>
+                <p class="mt-2 font-bold"><b>ADIL SALEEM<b></p>
+            </div>
+        </div>
+    </div>
+</section>
+                  
+
+<!-- Footer Section -->
+<footer class="p-4 bg-gradient-to-r from-[#FFDEE9] to-[#B5FFFC]">
+    <div class="container mx-auto text-center font-normal">
+        <p>© 2025 Learn English with Wajid Assad. All rights reserved.</p>
+        <div class="flex justify-center space-x-4 mt-4">
+            <a class="hover:text-gray-700" href="https://www.facebook.com/100004645685414/" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f text-2xl"></i>
+            </a>
+            <a class="hover:text-gray-700" href="https://www.instagram.com/wajid_assad/?utm_source=ig_web_button_share_sheet" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram text-2xl"></i>
+            </a>
+            <a class="hover:text-gray-700" href="https://twitter.com/wajid_assad" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter text-2xl"></i>
+            </a>
+            <a class="hover:text-gray-700" href="https://www.bing.com/ck/a?!&&p=075b2141fb6dbe98897eb1eb1404fc2814ec65dd71bae3d4ff1b4ec8d0817e5eJmltdHM9MTczNTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=18445ef8-68df-6149-2793-4cf569be6072&psq=wajiassad+youtube&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vQHdhamlkYXNzYWQ&ntb=1" target="_blank" aria-label="YouTube">
+                <i class="fab fa-youtube text-2xl"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+   <!-- Enrollment Form Modal -->
+<div id="enrollment-form" class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center hidden">
+    <div class="bg-gradient-to-b from-[#FFFAF0] to-[#E0FFFF] p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-4">Learn English with Wajid Assad Enrollment Form</h2>
+        <form id="enrollment-form-data">
+            <div class="mb-4">
+                <label class="block text-left mb-2 " for="course-name">Course Selected</label>
+                <input class="w-full p-2 border rounded bg-gray-100" id="course-name" name="course-name" type="text" readonly />
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 " for="mode">Preferred Mode</label>
+                <select class="w-full p-2 border rounded" id="mode" name="mode">
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="level">Current English Level</label>
+                <select class="w-full p-2 border rounded" id="level" name="level">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="goals">Learning Goals</label>
+                <textarea class="w-full p-2 border rounded" id="goals" name="goals"></textarea>
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="time-slot">Best Time Slot</label>
+                <select class="w-full p-2 border rounded" id="time-slot" name="time-slot">
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="age-group">Age Group</label>
+                <select class="w-full p-2 border rounded" id="age-group" name="age-group">
+                    <option value="under-18">Under 18</option>
+                    <option value="18-25">18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="46-above">46 and above</option>
+                </select>
+            </div>
+            <div class="flex justify-between">
+                <button class="bg-red-500 text-white py-2 px-4 rounded zoom-out-btn" type="button" id="cancel-btn">Cancel</button>
+                <button class="bg-blue-500 text-white py-2 px-4 rounded zoom-out-btn" type="button" id="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Tutor Booking Form Modal -->
+
+<div id="tutor-booking-form" class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center hidden">
+    <div class="bg-gradient-to-b from-[#FFFAF0] to-[#E0FFFF] p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-4">Book Tutor</h2>
+        <form id="tutor-booking-form-data">
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="tutor-name">Tutor Name</label>
+                <input class="w-full p-2 border rounded bg-gray-100" id="tutor-name" name="tutor-name" type="text" readonly />
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="tutor-mode">Preferred Mode</label>
+                <select class="w-full p-2 border rounded" id="tutor-mode" name="tutor-mode">
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="tutor-level">Current English Level</label>
+                <select class="w-full p-2 border rounded" id="tutor-level" name="tutor-level">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="tutor-goals">Learning Goals</label>
+                <textarea class="w-full p-2 border rounded" id="tutor-goals" name="tutor-goals"></textarea>
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="tutor-time-slot">Best Time Slot</label>
+                <select class="w-full p-2 border rounded" id="tutor-time-slot" name="tutor-time-slot">
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-left mb-2 font-bold" for="tutor-age-group">Age Group</label>
+                <select class="w-full p-2 border rounded" id="tutor-age-group" name="tutor-age-group">
+                    <option value="under-18">Under 18</option>
+                    <option value="18-25">18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="46-above">46 and above</option>
+                </select>
+            </div>
+            <div class="flex justify-between">
+                <button class="bg-red-500 text-white py-2 px-4 rounded hover:transform hover:scale-90 transition-transform duration-200" type="button" id="tutor-cancel-btn">Cancel</button>
+                <button class="bg-blue-500 text-white py-2 px-4 rounded hover:transform hover:scale-90 transition-transform duration-200" type="button" id="tutor-submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script>
+    function updateCeoText() {
+        const ceoText = document.getElementById('ceo-text');
+        const fullText = `<b>Wajid Assad </b>is the visionary CEO of the website <i>Learn English with Wajid Assad</i>. Armed with an impressive academic portfolio that includes a Master’s degree in English, a Bachelor’s degree in English Literature, and a Diploma in Applied Linguistics, he has devoted over seven years to empowering students with transformative language skills. His expertise lies in accent refinement, grammar mastery, vocabulary enhancement, public speaking, and developing overall English fluency. Wajid's passion for language education is evident in his commitment to delivering practical, results-driven learning experiences.  
+
+            Wajid is joined by his brother, <b>Sajid Assad</b>, who brings equally commendable qualifications and experience to the team. Sajid holds a Postgraduate degree in English and collaborates with Wajid to provide a holistic approach to language training. Together, they create a dynamic learning environment that fosters confidence, effective communication, and measurable progress. Their combined dedication, extensive experience, and academic excellence have made them a trusted name in language education, helping countless students achieve their linguistic and professional aspirations..`;
+
+        const shortText = `<b>Wajid Assad</b>, CEO of Learn English with Wajid Assad, holds a Master’s in English, a Bachelor’s in English Literature, and a Diploma in Applied Linguistics. With over seven years of experience, he specializes in accent refinement, grammar, and professional English skills essential for career advancement.
+
+His brother, <b>Sajid Assad</b>, a Postgraduate in English, joins him in providing practical, tailored language training. Together, they help students excel in professional communication, enhancing their career prospects and confidence. Learn English with Wajid Assad is the ultimate platform for mastering English for business and beyond.`;
+
+        if (window.innerWidth <= 640) { // Adjust the width as per your requirement
+            ceoText.innerHTML = shortText;
+            ceoText.style.textAlign = 'justify';
+        } else {
+            ceoText.innerHTML = fullText;
+            ceoText.style.textAlign = 'start';
+        }
+    }
+
+    // Initial check
+    updateCeoText();
+
+    // Update on window resize
+    window.addEventListener('resize', updateCeoText);
+</script>
+<script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        const navLinks = document.getElementById('nav-links');
+        const menuIcon = document.getElementById('menu-icon');
+        
+        // Toggle the visibility of the nav links
+        navLinks.classList.toggle('hidden');
+    
+        // Toggle the icon between hamburger and cross
+        if (navLinks.classList.contains('hidden')) {
+            menuIcon.classList.remove('fa-times');
+            menuIcon.classList.add('fa-bars');
+        } else {
+            menuIcon.classList.remove('fa-bars');
+            menuIcon.classList.add('fa-times');
+        }
+    });
+    </script>
+<script>
+    // Enrollment form functionality
+    const enrollButtons = document.querySelectorAll('.enroll-btn');
+    const enrollmentForm = document.getElementById('enrollment-form');
+    const cancelBtn = document.getElementById('cancel-btn');
+    const submitBtn = document.getElementById('submit-btn');
+
+    enrollButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            const courseName = event.target.closest('.p-4').querySelector('h3').innerText;
+            document.getElementById('course-name').value = courseName;
+            enrollmentForm.classList.remove('hidden');
+        });
+    });
+
+    cancelBtn.addEventListener('click', () => {
+        enrollmentForm.classList.add('hidden');
+    });
+
+    submitBtn.addEventListener('click', () => {
+        const form = document.getElementById('enrollment-form-data');
+        const courseName = form['course-name'].value;
+        const mode = form.mode.value;
+        const level = form.level.value;
+        const goals = form.goals.value;
+        const timeSlot = form['time-slot'].value;
+        const ageGroup = form['age-group'].value;
+
+        const subject = "Course Registration";
+        const body = `Course Selected: ${courseName}\nPreferred Mode: ${mode}\nCurrent English Level: ${level}\nLearning Goals: ${goals}\nBest Time Slot: ${timeSlot}\nAge Group: ${ageGroup}`;
+        const mailtoLink = `mailto:wajidahmad191@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        window.location.href = mailtoLink;
+        enrollmentForm.classList.add('hidden');
+    });
+
+    // Tutor booking functionality
+    const bookTutorButtons = document.querySelectorAll('.book-tutor-btn');
+    const tutorBookingForm = document.getElementById('tutor-booking-form');
+    const tutorCancelBtn = document.getElementById('tutor-cancel-btn');
+    const tutorSubmitBtn = document.getElementById('tutor-submit-btn');
+
+    bookTutorButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            const tutorName = event.target.getAttribute('data-tutor');
+            document.getElementById('tutor-name').value = tutorName;
+            tutorBookingForm.classList.remove('hidden');
+        });
+    });
+
+    tutorCancelBtn.addEventListener('click', () => {
+        tutorBookingForm.classList.add('hidden');
+    });
+
+    tutorSubmitBtn.addEventListener('click', () => {
+        const form = document.getElementById('tutor-booking-form-data');
+        const tutorName = form['tutor-name'].value;
+        const mode = form['tutor-mode'].value;
+        const level = form['tutor-level'].value;
+        const goals = form['tutor-goals'].value;
+        const timeSlot = form['tutor-time-slot'].value;
+        const ageGroup = form['tutor-age-group'].value;
+
+        const subject = "Tutor Booking";
+        const body = `Tutor Name: ${tutorName}\nPreferred Mode: ${mode}\nCurrent English Level: ${level}\nLearning Goals: ${goals}\nBest Time Slot: ${timeSlot}\nAge Group: ${ageGroup}`;
+        const mailtoLink = `mailto:wajidahmad191@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        window.location.href = mailtoLink;
+        tutorBookingForm.classList.add('hidden');
+    });
+</script>
+</script>
+</body>
+</html>
